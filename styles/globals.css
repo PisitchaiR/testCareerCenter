@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap');
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.shadow-out{
+    box-shadow: inset -11px -13px 20px #FFFFFF, inset 6px 13px 30px rgba(0, 0, 0, 0.3);
+}
+.shadow-in{
+    box-shadow: -3px -5px 6px rgba(255, 255, 255, 0.5), 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
